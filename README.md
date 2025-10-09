@@ -71,3 +71,5 @@ Once the PR is created, you should see status updates directly on the PR page:
 - Wait for all checks to complete.
 - Once you’re comfortable with the results, merge the PR into main.
 - After merging, log in to Codecov and open your repository’s dashboard — you should see your coverage uploads listed there.
+
+12. **Profit**
