@@ -37,6 +37,8 @@ git push origin main
 
 Go to Actions in your repo in Github and click Enable workflows when prompted.
 
+Need to add upload action to Github
+
 7. **Create a Feature Branch and Make a Small Change**
 ```bash
 git checkout -b demo/feature-1
