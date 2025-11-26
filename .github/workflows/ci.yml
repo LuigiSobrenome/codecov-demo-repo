@@ -38,3 +38,9 @@ jobs:
           files: ./coverage.xml
           flags: unittests
           name: codecov_demo
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        files: junit.xml
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
