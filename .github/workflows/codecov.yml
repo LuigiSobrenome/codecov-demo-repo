@@ -1,0 +1,3 @@
+bundle_analysis:
+  warning_threshold: "10MB"
+  status: True
